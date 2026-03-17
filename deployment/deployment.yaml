@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: titanic
-        image: slithiaote/application:v0.0.1
+        image: slithiaote/application:v0.0.4
         ports:
         - containerPort: 8000
         env:
