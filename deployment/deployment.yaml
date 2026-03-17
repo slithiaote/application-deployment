@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: titanic
-          image: compte_docker/application:v0.0.3
+          image: slithiaote/application:v0.0.3
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
